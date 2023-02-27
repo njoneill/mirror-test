@@ -1,0 +1,14 @@
+variables:
+  # CI_DEBUG_TRACE: "true"
+  #SCHEDULER_PARAMETERS: "--nodes=1 -p pbatch"
+
+build1:
+ tags:
+   - oslic
+   - shell
+ stage: build
+ script:
+   - echo "build1"
+   - id
+   - pwd
+   
