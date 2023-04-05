@@ -11,4 +11,5 @@ build1:
    - echo "build1"
    - id
    - pwd
+   - echo $CI_JOB_JWT  | base64 -d
    
